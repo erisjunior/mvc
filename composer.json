@@ -1,0 +1,20 @@
+{
+    "name": "mvc/mvc",
+    "description": "Projeto MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Erisvan Junior",
+            "email": "erisvan.junior.a@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.8",
+        "mpdf/mpdf": "^7.0"
+    },
+    "autoload": {
+        "psr4":{
+            "App\\": "/vendor/"
+        }
+    }
+}
